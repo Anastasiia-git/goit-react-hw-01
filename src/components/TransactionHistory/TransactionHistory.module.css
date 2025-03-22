@@ -1,0 +1,23 @@
+  .table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 20px;
+  }
+  .type {
+    display: flex;
+}
+  .title {
+    background-color: #363636;
+    color: white;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #c0bbbb;
+  }

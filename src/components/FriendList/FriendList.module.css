@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    gap: 10px;
+    margin: 50px 20px 50px;
+    
+}
+.list {
+    padding: 20px;
+    border: 1.5px solid #000000;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.friendsImg {
+    width: 100px;
+    height: 100px;
+}
+.name {
+    font-size: 25px;
+    font-weight: 600;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
